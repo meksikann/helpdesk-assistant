@@ -58,6 +58,18 @@ Then to talk to the bot, run:
 rasa shell --debug
 ```
 
+Run rasa rest server locally:  
+1.start duckling
+2.Start action server
+
+
+3.start rasa rest server
+
+Rasa rese server start
+```bash
+rasa run -m models --enable-api --cors "*" --debug 
+```
+
 Note that `--debug` mode will produce a lot of output meant to help you understand how the bot is working
 under the hood. You can also add this flag to the action server command. To simply talk to the bot, you can remove this flag.
 

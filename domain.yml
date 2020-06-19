@@ -18,6 +18,7 @@ intents:
 entities:
 - email
 - priority
+- purse_name
 slots:
   email:
     type: unfeaturized
@@ -28,6 +29,8 @@ slots:
   problem_description:
     type: unfeaturized
   requested_slot:
+    type: unfeaturized
+  purse_name:
     type: unfeaturized
 responses:
   utter_out_of_scope:

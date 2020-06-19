@@ -105,3 +105,63 @@
 - I want to order a pizza
 - what is the weather today
 - what is the weather
+
+## intent: bot_name
+- tell me your name please
+- well first of all I want to know your name
+- what's your name man?
+- how can I call you?
+- do you have a name? how can I call you?
+- and your name is?
+- give me a name
+- what's your user name?
+
+## intent: submit_reimbursement
+- create reimb
+- i want to submit and reimbursement
+- help me to create reimbursement
+- i need to get reimbursement done
+- reimbursement claim
+- complete reimbursement claim
+- make reimbursement. help me to do it please
+- you know . i would like to create one reimbursement. what should I do?
+
+## intent: skip_it
+- Skip it for now
+- well i'll get back to it later
+- later
+- not now thanks
+- i wanna do it after some time pass
+- gonna do it next week
+- not today thanks
+- sure but now today
+
+## intent: deny
+- nope
+- no
+- sure not
+- never
+- neither
+- no way
+- 100% not
+- not
+- no man
+- thanks but no
+
+## intent: ask_question
+- quick one
+- hey real quick
+- I have a question
+- wanna ask somth
+- I want to know answer for one question
+- let's discuss something
+- i would like to get answer for one question
+
+## intent: get_purse_balance
+- how much do I have at my [default](purse_name) purse
+- what's my [PIzza day](purse_name) balance
+- what amount at [affidavit](purse_name)
+- balance
+- what's my balance?
+- how much money at [for teachers](purse_name)
+- purse money?
