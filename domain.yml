@@ -14,6 +14,13 @@ intents:
     use_entities: []
 - out_of_scope
 - restart
+- bot_name
+- submit_reimbursement
+- skip_it
+- deny
+- confirm
+- ask_question
+- get_purse_balance
 
 entities:
 - email
@@ -40,7 +47,7 @@ responses:
   utter_goodbye:
   - text: Bye
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: I am a bot, born at Claswallet.
   utter_ask_email:
   - text: What is your email address to lookup for creating the incident?
   utter_ask_incident_title:
@@ -61,13 +68,49 @@ responses:
   utter_no_email:
   - text: Sorry, "{email}" isn't in our incident management system. Please try again.
   utter_help:
-  - text: I can help you open a service request ticket.
-      You can ask me things like "Open an incident", "Help me reset my password", or 
-      "I'm having a issue with my email."
+  - text: I can help you with some stuff here at the platform.
+      For ex. check your balance or guide you with some actions to do. You can read more about my skills here
+      https://your-helpdesk-bot.com/skills
   utter_welcome:
   - text: You're welcome!
+  - text: My please. I'm here to help
   utter_default:
   - text: I didn't quite understand that. Could you rephrase?
+  utter_how_canhelp:
+  - text: How can I help you?
+  - text: What can I help you with?
+  - text: Can I help you?
+  - text: Yes. Ready to help?
+  utter_botname:
+  - text: I'm Classbot
+  - text: My name is Classbot
+  - text: It's Classbot
+  utter_please_wait:
+  - text: Ok. Give me a sec.
+  - text: One second please
+  - text: Sure just a moment
+  utter_need_reimb_link:
+  - text: Just checked! You got to link your Reimbursement Account first. You can do it here*link
+  utter_whatisit:
+  - text: Yes, sure. What is it?
+  - text: Sure.listening..
+  utter_purse_amount:
+  - text: It's $ 1000.00
+  - text: You have $ 1000.00 on it
+  utter_any_aditional_help:
+  - text: Can I help you with something else?
+  utter_thanks:
+  - text: Thanks)
+  utter_may_ask:
+  - text: Just quick question from my side. May I?
+  utter_ask_sutisfied:
+  - text: Are you satisfied with my help?
+  utter_save_feedback:
+  - text: Great. I'm gonna save the feedback for my Dev team.So the can review it and improve my skills) Thanks.
+  utter_no_prob:
+  - text: sure
+  - text: no problem)
+
 
 forms:
 - open_incident_form

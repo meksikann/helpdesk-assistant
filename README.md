@@ -49,7 +49,7 @@ rasa run actions
 In another window, run the duckling server (for entity extraction):
 
 ```bash
-docker run -p 8000:8000 rasa/duckling
+docker run -d -p 8000:8000 rasa/duckling
 ```
 
 Then to talk to the bot, run:

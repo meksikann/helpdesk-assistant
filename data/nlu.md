@@ -23,6 +23,8 @@
 - great thanks
 - appreciate it
 - cool thanks
+- nice talk
+- it was nice to talk with you
 
 ## intent:bot_challenge
 - are you a bot?
@@ -147,6 +149,20 @@
 - not
 - no man
 - thanks but no
+
+## intent: confirm
+- yes
+- sure
+- yep
+- aha
+- sure thing
+- yes man
+- 100%
+- for sure
+- confirm
+- approve
+- i agree
+- do agree
 
 ## intent: ask_question
 - quick one
