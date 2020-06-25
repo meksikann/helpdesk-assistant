@@ -80,7 +80,6 @@ responses:
   - text: How can I help you?
   - text: What can I help you with?
   - text: Can I help you?
-  - text: Yes. Ready to help?
   utter_botname:
   - text: I'm Classbot
   - text: My name is Classbot
@@ -90,7 +89,8 @@ responses:
   - text: One second please
   - text: Sure just a moment
   utter_need_reimb_link:
-  - text: Just checked! You got to link your Reimbursement Account first. You can do it here*link
+  - text: Just checked! You got to link your Reimbursement Account first.
+          You can do it here http://app_demo.classwallet.com/#/reimbursement-accounts
   utter_whatisit:
   - text: Yes, sure. What is it?
   - text: Sure.listening..
